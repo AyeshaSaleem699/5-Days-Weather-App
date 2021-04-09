@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background: url("https://images.pexels.com/photos/395196/pexels-photo-395196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+#name-bar {
+  float: right;
+  list-style: none;
+  background-color: #545454;
+  width: 100%;
+  padding: 0px;
+  align-items: center;
+}
+
+#logo,
+#name,
+#small-search-container {
+  display: inline-block;
+}
+
+#logo {
+  float: left;
+  display: flex;
+  padding-right: 5px;
+  align-items: center;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+#logo i {
+  font-size: 50px;
+  color: #2d2b2d;
+}
+
+#name img {
+  width: 150px;
+  height: 70px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+#small-search-container {
+  float: right;
+  padding: 10px;
+  margin-right: 25px;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #2d2b2d;
+  display: flex;
+  align-items: center;
+}
+
+#small-search-container i {
+  cursor: pointer;
+}
+
+#zip-code-input {
+  background-color: transparent;
+  font-size: 20px;
+  width: 220px;
+  border: none;
+}
+
+#small-search-container input:focus {
+  outline: none;
+}
+
+#weather-info-frame {
+  background-color: #545454;
+  position: absolute;
+  width: 60%;
+  margin: 12% 20%;
+  padding: 10px;
+  border: black 5px solid;
+}
+
+#guide {
+  margin: 2px;
+  text-align: center;
+}
+
+#city-name {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#general-info {
+  margin-top: 2px;
+  font-weight: 20px;
+  font-style: italic;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+#changeDay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app with js.js"></script>
+    <script src="https://kit.fontawesome.com/7916724e41.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="background-picture-frame">
+        <div id="name-bar">
+            <div id="logo">
+                <i class="fas fa-cloud-sun-rain"></i>
+             </div>
+
+            <div id="name">
+                <img src="images/GET.gif" alt="Get Weather Forcast">
+            </div>
+            
+            <div id="small-search-container">       
+                <div id="small-searchBar" class="search-bar">
+                    <input id="zip-code-input" type="text" placeholder=" Enter City" />
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>    
+
+        <div id="weather-info-frame">
+            <div id="weather-info">
+                <p id="guide">Enter City name to get the following data</p>
+                <div>
+                    <p id="city-name">City Name, Country</p>
+                    <p id="general-info">General weather Info</p>
+                </div>
+                <div id="city-weather-details">
+                    <ul>
+                        <li id="day">Day: 1(current day) </li>
+                        <li id="timestamp">timestamp: </li>
+                        <li id="wether-condition">General Weather Condition: </li>
+                        <li id="avgtemp">Avergere Temperature: </li>
+                        <li id="humidity">Humidity: </li>
+                        <li id="pressue">Pressure:</li>
+                        <li id="visibility">Visibility:</li>
+                        <li id="speed">Wind Speed:</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="changeDay">
+                <Button id="btn">Change day</Button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
