@@ -1,6 +1,7 @@
 function sendRequest() {
     var xhttp = new XMLHttpRequest();
-    apiURL = "http://api.openweathermap.org/data/2.5/forecast?q="+city+"&appid=2b95400b35e0b522595d67faef0ebae4";
+    // add your citywise weather api here
+    apiURL = ;
     xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
     responseJson = this.responseText;
